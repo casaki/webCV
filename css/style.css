@@ -16,7 +16,7 @@ details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary
 
 h1, h2,h3,h4,h5 {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color:#1d6ebc;
+    color:black;
  }
 
 a {
@@ -70,14 +70,23 @@ body {
   float:left;
   overflow:auto;
 }
+.rowPublicaciones{
+  width:100%;
+  float:left;
+  overflow:auto;
+  margin-top:4px;
+  margin-bottom:4px;
+  background-color: #D8D8D8;
+}
 
 #cabecera {
   width: 20%;
   height: 200px;
   float:left;
   background-color:orange;
-  border-right: 10px;
-  border-right-color: black;
+  vertical-align: center;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .colLeft {
@@ -94,6 +103,7 @@ body {
   float:left;
   margin-top:4px;
   margin-bottom:4px;
+
 }
 
 .colLeftSection {
@@ -136,7 +146,7 @@ h1#logo {
 h1#logo img {
   border: none;
   margin: 0;
-  width: 180px;
+  width: 200px;
   float: right;
 }
 
@@ -169,23 +179,40 @@ section ul li {
   /*margin: 0 auto;*/
   position: relative;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 #header {
   width:100%; 
-  background:rgba(0,90,255,.7);
-  position:fixed; 
+  background:rgba(255,255,255,.7);
+  position:fixed;
+  margin: 0 auto;
+  /*margin-left:600px;*/ 
   top:0; 
   z-index:10000;
-  overflow:auto
+  overflow:auto;
+  
+
+}
+#footer {
+  width:100%; 
+  background:rgba(0,90,255,.7);
+  margin: 0 auto;
+  top:0; 
+  z-index:10000;
+  overflow:auto;
+ /*position:fixed;*/
 }
 
+
 nav {
-  width:100%;
+  width:991px;
   margin: 0 auto;
+  /*float:left;*/
+  /*margin-left: 20px;*/
   font-family: 'Verdana', sans-serif;
   text-align:center;
-  font-size: 10px;
+  font-size: 14px;
   text-shadow:0px 2px 3px rgba(33,33,33,.7)
 }
 
@@ -196,20 +223,20 @@ nav ul {
   list-style: none;
   padding: 0;
   text-transform: uppercase;
-  width: 80%;
+  width: 100%;
   padding-top: 1px;
   margin-right: 0;
   margin-bottom: 0;
 }
 
+
 nav ul li {
   float:left;
-  /*margin: 0 auto;*/
   position: relative;
 }
 
 nav a {
-  background:#0c9ba0;
+  background:#FFA500;
   color:#FFF;
   display:block;
   border:1px solid;
@@ -246,7 +273,7 @@ nav ul li ul li {
   float:left;
 }
 #main_section {
-  padding-top:35px;
+  padding-top: 65px;
   width: 991px;
   /*float:left;*/
   margin: 0 auto;
