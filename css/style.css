@@ -1,0 +1,258 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, 
+code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video 
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+
+
+h1, h2,h3,h4,h5 {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#1d6ebc;
+ }
+
+a {
+  color: #557FFF; 
+  text-decoration:none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1{
+  font-size:30px; text-shadow:rgba(33,33,33,.3) 0px 3px 5px;
+  text-align: center;
+  vertical-align: center;
+}
+h2{
+  text-align:center; 
+  background-color:orange; 
+  color:black;
+}
+h3{
+  text-align:left; 
+  /*background-color:gray;*/ 
+  color:black;
+  margin-left: 20px;
+
+}
+h4{
+  text-align:left; 
+  /*background-color:white;*/ 
+  color:black;
+  margin-left: 20px;
+}
+p {
+  text-align:justify
+}
+body {
+  background-color: white;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#000; 
+  font-size:15px
+ }
+.container {
+  width:80%; 
+  margin:0 auto;
+  background-color: white;
+  padding-top:160px;
+}
+.row {
+  width:100%;
+  float:left;
+  overflow:auto;
+}
+
+#cabecera {
+  width: 20%;
+  height: 200px;
+  float:left;
+  background-color:orange;
+  border-right: 10px;
+  border-right-color: black;
+}
+
+.colLeft {
+  width: 20%; 
+  height: auto; 
+  max-height: 500px;
+  float:left;
+  margin-top:4px;
+  margin-bottom:4px;
+  background-color: #D8D8D8;
+}
+.information{
+  width:80%; 
+  float:left;
+  margin-top:4px;
+  margin-bottom:4px;
+}
+
+.colLeftSection {
+  width: 20%; 
+  float:left;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-top:4px;
+  margin-bottom:4px;
+  background-color: #848484;
+}
+.informationSection{
+  width:80%; 
+  float:left;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-top:4px;
+  margin-bottom:4px;
+  background-color: #848484;
+}
+#h
+
+
+
+.last {
+  margin-right: 0px;
+}
+
+/*rgba(0,0,0,.8)  box-shadow:rgba(33,33,33,.4) 0px 10px 50px*/
+
+
+h1#logo {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+  padding: 15px 0 0 20px;
+  color: #fff;
+}
+
+h1#logo img {
+  border: none;
+  margin: 0;
+  width: 180px;
+  float: right;
+}
+
+article header h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+section header {
+  padding-top: 10px;
+}
+
+section header h1 {
+  padding: 15px 0px 15px 0px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: normal;
+  color: black;
+  margin-bottom: 0
+}
+article {
+    overflow:auto;
+    padding-bottom:20px;
+}    
+section {
+    overflow:auto;   
+}
+
+section ul li {
+  float:left;
+  /*margin: 0 auto;*/
+  position: relative;
+  margin-left: 20px;
+}
+
+#header {
+  width:100%; 
+  background:rgba(0,90,255,.7);
+  position:fixed; 
+  top:0; 
+  z-index:10000;
+  overflow:auto
+}
+
+nav {
+  width:100%;
+  margin: 0 auto;
+  font-family: 'Verdana', sans-serif;
+  text-align:center;
+  font-size: 10px;
+  text-shadow:0px 2px 3px rgba(33,33,33,.7)
+}
+
+
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+  width: 80%;
+  padding-top: 1px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+nav ul li {
+  float:left;
+  /*margin: 0 auto;*/
+  position: relative;
+}
+
+nav a {
+  background:#0c9ba0;
+  color:#FFF;
+  display:block;
+  border:1px solid;
+  padding:10px 12px;
+}
+ 
+nav ul li a:hover {
+  background:#0fbfc6;
+}
+
+nav ul li ul {
+  display: none ;
+  position: absolute;
+}
+
+nav ul li:hover ul {
+  display: block ;
+  z-index: 1000 ;
+} 
+
+
+nav ul li ul li {
+  float: none ;
+}
+
+#left_section {
+  padding-top:160px;
+  width: 10%;
+  float:left;
+}
+#rigth_section {
+  padding-top:160px;
+  width: 10%;
+  float:left;
+}
+#main_section {
+  padding-top:35px;
+  width: 991px;
+  /*float:left;*/
+  margin: 0 auto;
+  background-color: white;
+  overflow:auto
+}
+
+.main {padding-bottom:20px;}
+
